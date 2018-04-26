@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="C:\Users\Max\Desktop\Универ\2-ой курс\Labs\ballsballsballs\style1.css" type="text/css"  />
+<link rel="stylesheet" href="C:\Users\Max\Desktop\Универ\2-ой курс\Labs\ballsballsballs\menu.css" type="text/css"  />
+  <meta charset="utf-8">
+  <title>2d collision</title>
+  <style>
+
+  body {
+    background-color: khaki;
+    text-align: center;
+
+  }
+
+  #title {
+    color: black;
+    font-size: 200%;
+    font-style: normal;
+    margin: 1px;
+    border: 1px;
+  }
+
+  #balls {
+    margin-top: 5px;
+  }
+
+  #myCanvas {
+    margin-top: -20px;
+  }
+
+  section.footer {
+    color: black;
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-size: small;
+  }
+
+  </style>
+</head>
+<menu class="menu">
+<li class="menu-item">
+<button id="change" type="button" class="menu-btn">
+<i class="fa fa-edit"></i>
+<span class="menu-text">Изменить цвет</span>
+</button>
+</li>
+<li class="menu-item">
+<button id="delete" type="button" class="menu-btn">
+<i class="fa fa-trash"></i>
+<span class="menu-text">Удалить</span>
+</button>
+</li>
+</menu>
+<body style="text-align: center">
+  <div class="holder">
+    <div class="block">
+      <button id="play" type="button">Play/Pause</button>
+    </div>
+  </div>
+  <div>
+    <canvas id="myCanvas" width="900" height="400" style="border:1px solid black;"></canvas>
+  </div>
+  <div class="holder">
+    <div class="block">
+      <button id="Small" type="button">Small</button>
+      <button id="Medium" type="button">Medium</button>
+      <button id="Big" type="button">Big</button>
+      <button id="Wall" type="button">Wall</button>
+      <script src="constructors.js"></script>
+      <script src="script2.js"></script>
+      <script src="script.js"></script>
+    </div>
+  </div>
+  <section class="footer">
+
+    <p>
+
+      <strong>[P]</strong>: pause/unpause || <strong>[R]</strong>: [RESET]
+    </p>
+
+  </section>
+</body>
+</html>
